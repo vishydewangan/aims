@@ -37,3 +37,6 @@ def check_exists_by_xpath(driver, xpath):
     except TimeoutException:
        return False
     return True
+
+def HelloWorld():
+    print "Hello World"

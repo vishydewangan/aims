@@ -66,6 +66,8 @@ def activate(driver, target, lea):
     #print "target_in_page:", target_in_activation_page
     assert target_in_activation_page == local_target['number']
     print text
+    print "Hello World"
+
 
     logout(local_driver)
 
